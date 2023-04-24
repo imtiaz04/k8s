@@ -48,6 +48,11 @@ kubeadm token create --print-join-command
   
   
 ------------------------------------------- Worker Node ------------------------------------------------ 
+
 sudo su
+
+
 kubeadm reset pre-flight checks
+
+
 -----> Paste the Join command on worker node with `--v=5`
